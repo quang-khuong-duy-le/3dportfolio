@@ -1,7 +1,7 @@
-import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import Loader from '../components/Loader'
+import Island from '../models/Island'
 
 const Home = () => {
   return (
@@ -19,6 +19,8 @@ const Home = () => {
           <ambientLight />
           <pointLight />
           <hemisphereLight />
+
+          <Island />
         </Suspense>
       </Canvas>
     </section>
