@@ -26,6 +26,27 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import angularjs from './angularjs.svg'
+import aspnet from './aspnet.svg'
+import bootstrap from './bootstrap.svg'
+import csharp from './csharp.svg'
+import dotnet from './dotnet.svg'
+import dotnetcore from './dotnetcore.svg'
+import identityserver from './identityserver.svg'
+import java from './java.svg'
+import jenkins from './jenkins.svg'
+import jquery from './jquery.svg'
+import knockoutjs from './knockoutjs.svg'
+import ldap from './ldap.svg'
+import lucene from './lucene.svg'
+import octopus from './octopus.svg'
+import python from './python.svg'
+import restapi from './restapi.svg'
+import sqlserver from './sqlserver.svg'
+import ssis from './ssis.svg'
+import swift from './swift.svg'
+import teamcity from './teamcity.svg'
+
 
 export {
     css,
@@ -55,5 +76,25 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    angularjs,
+    aspnet,
+    bootstrap,
+    csharp,
+    dotnet,
+    dotnetcore,
+    identityserver,
+    java,
+    jenkins,
+    jquery,
+    knockoutjs,
+    ldap,
+    lucene,
+    octopus,
+    python,
+    restapi,
+    sqlserver,
+    ssis,
+    swift,
+    teamcity
 }
