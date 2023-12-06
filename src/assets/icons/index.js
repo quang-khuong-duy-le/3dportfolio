@@ -46,6 +46,8 @@ import sqlserver from './sqlserver.svg'
 import ssis from './ssis.svg'
 import swift from './swift.svg'
 import teamcity from './teamcity.svg'
+import venusicon from './venus.svg'
+import eatcheficon from './eatchef.svg'
 
 
 export {
@@ -96,5 +98,7 @@ export {
     sqlserver,
     ssis,
     swift,
-    teamcity
+    teamcity,
+    venusicon,
+    eatcheficon
 }
