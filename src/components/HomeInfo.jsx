@@ -18,9 +18,9 @@ const InfoBox = ({ text, link, btnText }) => (
 const renderContent = {
     1: (
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-            Hi, I am <span className='font-semibold'>Quang Le</span>
+            Hi, I am <span className='font-semibold'>Quang</span>
             <br/>
-            A Software Engineer from Vietnam
+            A full-stack developer with 8 years of experience. I enjoy building sites & apps.
         </h1>
     ),
     2: (
