@@ -31,7 +31,9 @@ import {
     sqlserver,
     ssis,
     swift,
-    teamcity
+    teamcity,
+    venusicon,
+    eatcheficon
 } from "../assets/icons";
 
 export const skills = [
@@ -256,10 +258,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: venusicon,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/',
-    }
+        name: 'Venus Search Page',
+        description: 'Redesigned the Search page of venus.com using Lucene.NET, massively improved search results, performance and responsiveness.',
+        link: 'https://www.venus.com/search?searchterm=floral+dress',
+    },
+    {
+        iconUrl: venusicon,
+        theme: 'btn-back-yellow',
+        name: 'Adobe Customer Journey Analytics Integration',
+        description: 'Integrated Adobe CJA into venus.com, created first step to become a data-driven company.',
+        link: 'https://www.venus.com/',
+    },
+    {
+        iconUrl: venusicon,
+        theme: 'btn-back-blue',
+        name: 'Venus Bag Page',
+        description: 'Redesigned the Bag page of venus.com, improved performance, user\'s interactions and responsiveness.',
+        link: 'https://www.venus.com/bag.aspx',
+    },
+    {
+        iconUrl: eatcheficon,
+        theme: 'btn-back-orange',
+        name: 'Eat with Chef',
+        description: 'Designed an ecommerce application, letting customers place meal orders. Barcodes are attached to the shipment, which can be used to provide more information about chef, ingredients and farms/manufacturers.',
+        link: 'https://github.com/quang-khuong-duy-le/EatWithChef',
+    },
 ];
