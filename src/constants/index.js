@@ -259,7 +259,7 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: venusicon,
-        theme: 'btn-back-yellow',
+        theme: 'btn-back-red',
         name: 'Venus Search Page',
         description: 'Redesigned the Search page of venus.com using Lucene.NET, massively improved search results, performance and responsiveness.',
         link: 'https://www.venus.com/search?searchterm=floral+dress',
@@ -267,13 +267,20 @@ export const projects = [
     {
         iconUrl: venusicon,
         theme: 'btn-back-yellow',
+        name: 'Adobe Customer Journey Analytics Integration',
+        description: 'Integrated Adobe CJA into venus.com, created first step to become a data-driven company.',
+        link: 'https://www.venus.com/',
+    },
+    {
+        iconUrl: venusicon,
+        theme: 'btn-back-blue',
         name: 'Venus Bag Page',
         description: 'Redesigned the Bag page of venus.com, improved performance, user\'s interactions and responsiveness.',
         link: 'https://www.venus.com/bag.aspx',
     },
     {
         iconUrl: eatcheficon,
-        theme: 'btn-back-red',
+        theme: 'btn-back-orange',
         name: 'Eat with Chef',
         description: 'Designed an ecommerce application, letting customers place meal orders. Barcodes are attached to the shipment, which can be used to provide more information about chef, ingredients and farms/manufacturers.',
         link: 'https://github.com/quang-khuong-duy-le/EatWithChef',
