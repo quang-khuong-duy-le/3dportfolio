@@ -4,7 +4,7 @@ import Loader from '../components/Loader'
 import Island from '../models/Island'
 import Sky from '../models/Sky'
 import Bird from '../models/Bird'
-import Plane from '../models/Plane'
+import Dragon from '../models/Dragon'
 import HomeInfo from '../components/HomeInfo'
 import sakuraSong from '../assets/sakura.mp3'
 import { soundoff, soundon } from '../assets/icons'
@@ -43,15 +43,15 @@ const Home = () => {
     return [screenScale, screenPosition, rotation];
   }
 
-  const adjustPlaneForScreenSize = () => {
+  const adjustDragonForScreenSize = () => {
     let screenScale = null;
     let screenPosition = null;
 
     if (window.innerWidth < 768) {
-      screenScale = [1.5, 1.5, 1.5];
+      screenScale = [0.007, 0.007, 0.007];
       screenPosition = [0, -0.5, 0];
     } else {
-      screenScale = [3, 3, 3];
+      screenScale = [0.013, 0.013, 0.013];
       screenPosition = [0, 0, -4];
     }
 
@@ -59,7 +59,7 @@ const Home = () => {
   }
 
   const [islandScale, islandPosition, islandRotation] = adjustIslandForScreenSize();
-  const [planeScale, planePosition] = adjustPlaneForScreenSize();
+  const [dragonScale, dragonPosition] = adjustDragonForScreenSize();
 
   return (
     <section className='w-full h-screen relative'>
@@ -88,11 +88,11 @@ const Home = () => {
             setCurrentStage={setCurrentStage}
           />
 
-          <Plane
+          <Dragon
             isRotating={isRotating}
-            scale={planeScale}
-            position={planePosition}
-            rotation={[0,20,0]}
+            scale={dragonScale}
+            position={dragonPosition}
+            rotation={[0,0,0]}
           />
         </Suspense>
       </Canvas>

@@ -4,7 +4,6 @@ import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 
 import islandScene from "../assets/3d/island.glb";
-import { a } from "@react-spring/three";
 
 const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
   const islandRef = useRef();
@@ -96,8 +95,6 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
        */
       const normalizedRotation =
         ((rotation % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
-
-      console.log("island y: ", normalizedRotation);
 
       // Set the current stage based on the island's orientation
       switch (true) {
