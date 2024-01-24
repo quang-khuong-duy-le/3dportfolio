@@ -14,7 +14,7 @@ const Bird = () => {
     }, []);
 
     useFrame(({ clock, camera }) => {
-      birdRef.current.position.y = Math.sin(clock.elapsedTime) * 0.2 + 2;
+      birdRef.current.position.y = Math.sin(clock.elapsedTime) * 0.2 + 5;
 
       if (birdRef.current.position.x > camera.position.x + 10) {
         birdRef.current.rotation.y = Math.PI;
@@ -32,7 +32,7 @@ const Bird = () => {
     });
 
     return (
-      <mesh ref={birdRef} position={[-5,2,1]} scale={[0.003, 0.003, 0.003]}>
+      <mesh ref={birdRef} position={[-5,1,1]} scale={[0.002, 0.002, 0.002]}>
           <primitive object={scene} />
       </mesh>
     )
